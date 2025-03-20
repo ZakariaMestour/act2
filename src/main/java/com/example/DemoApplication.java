@@ -35,21 +35,15 @@ public class DemoApplication implements CommandLineRunner {
 		//for (Patient patient :patientRepo.findByNom("Zakaria")) {
 		//	System.out.println(patient);
 		//}
-		for (Patient patient : patientRepo.findAll()) {
 
-			System.out.println(patient.toString());
-		}
-		System.out.println("---------------------Update---------------------");
+		//System.out.println("---------------------Update---------------------");
 		//patientRepo.updateById(1L,"zakaria",false,30);
 		//for (Patient patient : patientRepo.findAll()) {
 
 		//	System.out.println(patient.toString());
 		//}
-		patientRepo.deleteById(1);
-		for (Patient patient : patientRepo.findAll()) {
+		//patientRepo.deleteById(1);
 
-			System.out.println(patient.toString());
-		}
 
 	}
 
