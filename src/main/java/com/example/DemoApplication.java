@@ -6,9 +6,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
+
+import static ch.qos.logback.core.joran.spi.ConsoleTarget.findByName;
 
 @SpringBootApplication
 public class DemoApplication implements CommandLineRunner {
@@ -26,7 +31,11 @@ public class DemoApplication implements CommandLineRunner {
 
 		//	System.out.println(patient.toString());
 		//}
-		System.out.println(patientRepo.findById(2).toString());
+		//System.out.println(patientRepo.findById(2).toString());
+		for (Patient patient :patientRepo.findByNom("Zakaria")) {
+			System.out.println(patient);
+		}
 
 	}
+
 }
