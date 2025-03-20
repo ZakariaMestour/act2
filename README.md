@@ -15,3 +15,5 @@ Consulter tous les patients :
 Consulter un patient:
 ![image](https://github.com/user-attachments/assets/3bc1c4a3-5bf5-47e2-97e5-145d22b04ddd)
 
+ Chercher des patients:
+![image](https://github.com/user-attachments/assets/c263796f-10b3-46d1-8fbb-21bc4d10b8be)
