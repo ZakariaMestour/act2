@@ -40,11 +40,17 @@ public class DemoApplication implements CommandLineRunner {
 			System.out.println(patient.toString());
 		}
 		System.out.println("---------------------Update---------------------");
-		patientRepo.updateById(1L,"zakaria",false,30);
+		//patientRepo.updateById(1L,"zakaria",false,30);
+		//for (Patient patient : patientRepo.findAll()) {
+
+		//	System.out.println(patient.toString());
+		//}
+		patientRepo.deleteById(1);
 		for (Patient patient : patientRepo.findAll()) {
 
 			System.out.println(patient.toString());
 		}
+
 	}
 
 }

@@ -16,4 +16,5 @@ public interface PatientRepo extends JpaRepository<Patient, Integer> {
     @Transactional
     @Query("UPDATE Patient p SET p.nom = :nom, p.malade = :malade, p.score = :score WHERE p.id = :id")
     void updateById(@Param("id")Long id, @Param("nom") String nom, @Param("malade")boolean malade, @Param("score")int score);
+    void deleteById(int id);
 }
