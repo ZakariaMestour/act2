@@ -8,3 +8,10 @@ Quand j'ai réussi d'ajouter des patients :
 ![image](https://github.com/user-attachments/assets/1ecde0b2-8dd4-433a-bdbc-c7c4d8ddc6f6)
 ![image](https://github.com/user-attachments/assets/c9309aba-dfa6-487c-8b3a-5e4de8bac05b)
 
+
+Consulter tous les patients : 
+![image](https://github.com/user-attachments/assets/a7f19a12-4cb5-4819-a256-02e353137fcb)
+
+Consulter un patient:
+![image](https://github.com/user-attachments/assets/3bc1c4a3-5bf5-47e2-97e5-145d22b04ddd)
+
