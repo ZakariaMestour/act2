@@ -22,10 +22,11 @@ public class DemoApplication implements CommandLineRunner {
 		//patientRepo.save(new Patient(null,"zakaria",new SimpleDateFormat("dd-MM-yyyy").parse("30-08-2003"),true,20));
 		//patientRepo.save(new Patient(null,"Reda",new SimpleDateFormat("dd-MM-yyyy").parse("3-09-2000"),false,80));
 		//patientRepo.save(new Patient(null,"Ahmed",new SimpleDateFormat("dd-MM-yyyy").parse("11-01-1999"),true,90));
-		for (Patient patient : patientRepo.findAll()) {
+		//for (Patient patient : patientRepo.findAll()) {
 
-			System.out.println(patient.toString());
-		}
+		//	System.out.println(patient.toString());
+		//}
+		System.out.println(patientRepo.findById(2).toString());
 
 	}
 }
