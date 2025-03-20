@@ -20,3 +20,6 @@ Consulter un patient:
 
 Mettre à jour un patient :
  ![image](https://github.com/user-attachments/assets/013b6036-f0e9-465d-a3c5-62c07066022f)
+
+supprimer un patient
+![image](https://github.com/user-attachments/assets/89eb984c-4951-47a2-a525-86213d4a9a1b)
