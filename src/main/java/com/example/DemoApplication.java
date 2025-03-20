@@ -24,9 +24,9 @@ public class DemoApplication implements CommandLineRunner {
 	}
 	@Override
 	public void run(String... args) throws Exception {
-		//patientRepo.save(new Patient(null,"zakaria",new SimpleDateFormat("dd-MM-yyyy").parse("30-08-2003"),true,20));
-		//patientRepo.save(new Patient(null,"Reda",new SimpleDateFormat("dd-MM-yyyy").parse("3-09-2000"),false,80));
-		//patientRepo.save(new Patient(null,"Ahmed",new SimpleDateFormat("dd-MM-yyyy").parse("11-01-1999"),true,90));
+		patientRepo.save(new Patient(null,"zakaria",new SimpleDateFormat("dd-MM-yyyy").parse("30-08-2003"),true,20));
+		patientRepo.save(new Patient(null,"Reda",new SimpleDateFormat("dd-MM-yyyy").parse("3-09-2000"),false,80));
+		patientRepo.save(new Patient(null,"Ahmed",new SimpleDateFormat("dd-MM-yyyy").parse("11-01-1999"),true,90));
 		//for (Patient patient : patientRepo.findAll()) {
 
 		//	System.out.println(patient.toString());
