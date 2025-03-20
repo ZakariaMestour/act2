@@ -32,10 +32,19 @@ public class DemoApplication implements CommandLineRunner {
 		//	System.out.println(patient.toString());
 		//}
 		//System.out.println(patientRepo.findById(2).toString());
-		for (Patient patient :patientRepo.findByNom("Zakaria")) {
-			System.out.println(patient);
-		}
+		//for (Patient patient :patientRepo.findByNom("Zakaria")) {
+		//	System.out.println(patient);
+		//}
+		for (Patient patient : patientRepo.findAll()) {
 
+			System.out.println(patient.toString());
+		}
+		System.out.println("---------------------Update---------------------");
+		patientRepo.updateById(1L,"zakaria",false,30);
+		for (Patient patient : patientRepo.findAll()) {
+
+			System.out.println(patient.toString());
+		}
 	}
 
 }
