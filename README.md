@@ -17,3 +17,6 @@ Consulter un patient:
 
  Chercher des patients:
 ![image](https://github.com/user-attachments/assets/c263796f-10b3-46d1-8fbb-21bc4d10b8be)
+
+Mettre à jour un patient :
+ ![image](https://github.com/user-attachments/assets/013b6036-f0e9-465d-a3c5-62c07066022f)
